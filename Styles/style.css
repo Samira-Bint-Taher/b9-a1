@@ -1,79 +1,125 @@
 /* header section styles */
-.banner{
+.banner {
     background-image: url('../images/BannerImage.png');
     background-size: 1320px;
     background-repeat: no-repeat;
     background-position: center;
-    height: 700px;   
+    height: 700px;
 }
-.banner-content{
+
+.banner-content {
     text-align: center;
     color: #FFF;
     font-family: 'Merriweather';
     padding: 220px;
     font-style: bold;
+    font-weight: 600;
 }
-.banner-wish{
+
+.banner-wish {
     font-size: 32px;
 }
-.banner-celebration{
+
+.banner-celebration {
     font-size: 72px;
 }
+
 /* main section styles */
 /* section1 */
-.sec1-content{
+.sec1-content {
     font-family: 'Inter';
     text-align: center;
 }
-.off{
+
+.off {
     color: #F00;
-font-size: 88px;
+    font-size: 88px;
 }
-.deal{
+
+.deal {
     color: #F00;
-font-size: 24px
+    font-size: 24px
 }
-.category{
+
+.category {
     color: #070211;
     font-size: 48px;
 }
-.sec1-img{
+
+.sec1-img {
     display: block;
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 50px;
 }
+
 /* section2 */
-.section-2{
+.bck-img {
     background-image: url('../images/Vectorrr.png');
-    display: flex;
     background-repeat: no-repeat;
     background-position: center;
-    align-items: center;
+}
+
+.section-2 {
+    display: flex;
+    padding: 130px;
     justify-content: space-between;
 }
-.sec2-img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+
+.sec2-content {
+    margin: auto;
 }
-.sec2-content{
-    padding: 30px 30px 0px 150px;
-}
-.welcome{
+
+.welcome {
     color: #FFF;
     font-family: 'Merriweather';
     font-size: 64px;
     letter-spacing: 7.04px;
 }
-.greetings{
+
+.greetings {
     color: #FFFFFF;
     font-family: 'Inter';
     font-size: 18px;
 }
-.join{
-    text-align: center;
+
+.join {
     font-family: 'Inter';
-    font-size: 20px;
+    font-size: 15px;
     text-transform: uppercase;
+    border-radius: 8px;
+    background: none;
+    color: #FFF;
+}
+
+/* section3 */
+.section-3 {
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    height: 200px;
+    padding: 50px;
+    text-align: center;
+}
+.info {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    /* 175% */
+}
+span {
+    color: #070211;
+}
+.btn {
+    font-family: 'Inter';
+    font-size: 15px;
+    text-transform: uppercase;
+    display: inline-flex;
+    padding: 16px 32px;
+    gap: 10px;
+    border-radius: 8px;
+    background: #F00;
+    margin-top: 30px;
 }
