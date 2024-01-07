@@ -1,17 +1,17 @@
 /* header section styles */
 .banner {
-    background-image: url('../images/BannerImage.png');
+    background-image:linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url('../images/BannerImage.png');
     background-size: 1320px;
     background-repeat: no-repeat;
     background-position: center;
-    height: 700px;
+    height: 600px;
 }
 
 .banner-content {
     text-align: center;
     color: #FFF;
     font-family: 'Merriweather';
-    padding: 220px;
+    padding: 150px;
     font-style: bold;
     font-weight: 600;
 }
@@ -55,9 +55,12 @@
 
 /* section2 */
 .bck-img {
-    background-image: url('../images/Vectorrr.png');
+    background-image:linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url('../images/Vectorrr.png');
     background-repeat: no-repeat;
     background-position: center;
+    background-size: 1500px;
+    height: 600px;
+    padding-bottom: 200px;
 }
 
 .section-2 {
@@ -69,7 +72,9 @@
 .sec2-content {
     margin: auto;
 }
-
+.sec2-img{
+   
+}
 .welcome {
     color: #FFF;
     font-family: 'Merriweather';
