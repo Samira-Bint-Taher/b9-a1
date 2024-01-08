@@ -200,3 +200,36 @@ height: 220px;
 transform: rotate(-10.212deg);
 padding-top:100px ;
 }
+/* section-6 */
+.section-6{
+    padding-top:80px;
+}
+.p-port{
+    width:600px;
+    height: 50px;
+}
+.title{
+    color: #F00;
+    font-family: 'Inter';
+    font-size: 15px;
+    height:10px;
+}
+.h-port{
+color: #070211;
+font-family: 'Merriweather';
+font-size: 35px;
+height:30px;
+}
+.img-col-1{
+    display: flex;
+    column-gap: 20px;
+  padding-bottom:20px;
+  border-radius: 16px;
+}
+.img-col-2{
+    display: flex;
+    column-gap: 20px;
+    border-radius: 16px;
+}
+
+
