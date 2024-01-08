@@ -72,9 +72,6 @@
 .sec2-content {
     margin: auto;
 }
-.sec2-img{
-   
-}
 .welcome {
     color: #FFF;
     font-family: 'Merriweather';
@@ -127,4 +124,33 @@ span {
     border-radius: 8px;
     background: #F00;
     margin-top: 30px;
+}
+/* section4 */
+.section-4{
+    display: flex;
+    justify-content: space-evenly;
+    column-gap: 150px;
+    padding-top:250px;
+}
+.come-soon{
+    color: rgba(7, 2, 17, 0.60);
+font-family: 'Inter';
+font-size: 20px;
+line-height: 32px; /* 160% */
+}
+.column1{
+    padding-left: 80px;
+}
+.column2{
+    border-radius: 100%; 
+    border: 15px solid #F00;
+    padding: 30px 30px;
+}
+.column3{
+   padding-right:70px;
+}
+.twenyfour{
+    color: #F00;
+    font-family: 'Inter';
+    font-size: 48px;
 }
