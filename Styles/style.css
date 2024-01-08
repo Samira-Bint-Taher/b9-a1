@@ -337,8 +337,13 @@ footer {
 .col1 {
     width:250px;
 }
-hr.line{
+hr.line1{
     border-top: 1px solid #FFFFFF26;
+  margin-bottom: 1.5em;
+}
+hr.line2{
+    border-top: 1px solid #FFFFFF26;
+  margin-top: 1.5em;
 }
 .icon{
     display: flex;
